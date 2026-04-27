@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+env/
+
+# Modal
+.modal/
+
+# Model Weights and Large Files
+# Ignore the downloaded LoRA weights (300MB+) so they aren't pushed to GitHub
+florence-vqa-lora/
+*.safetensors
+*.bin
+
+# Logs and Outputs
+*.log
+training_metrics.json
+*.png
+*.jpg
+*.jpeg
