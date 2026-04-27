@@ -47,6 +47,16 @@ To deploy the fine-tuned model as a highly-available serverless web API:
 modal deploy serve_vlm.py
 ```
 
+## 3. Local Gradio Web UI
+You can run the model entirely locally using the provided `app.py` script. This spins up a beautiful Gradio Web UI.
+
+![VLM Local Demo](vlm_demo.webp)
+
+To run it:
+```bash
+python app.py
+```
+
 ## 3. Testing the Endpoint
 Once deployed, Modal will provide you with a live URL. You can send a chest X-Ray and a medical question to your VLM using:
 ```bash
