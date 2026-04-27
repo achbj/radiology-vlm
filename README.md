@@ -36,6 +36,11 @@ modal run train_vlm.py
 ```
 *(The weights will be automatically saved to a Modal Volume named `vlm-model-vol`)*
 
+### Training Results
+The model was trained for 3 epochs, showing rapid convergence on the medical vocabulary and anatomical features:
+
+![Training Loss](vlm_loss_curve.png)
+
 ## 2. Serving the API
 To deploy the fine-tuned model as a highly-available serverless web API:
 ```bash
